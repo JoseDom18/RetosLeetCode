@@ -15,7 +15,8 @@ public class Escenario14 {
     // Output: ""
     // Explanation: There is no common prefix among the input strings.
 
-    String[] strs = { "flower", "flow", "flight" };
+    // String[] strs = { "flower", "flow", "flight" };
+    String[] strs = { "a" };
 
     System.out.println(SolutionLongestCommonPrefix.longestCommonPrefix(strs));
   }
