@@ -23,13 +23,8 @@ public class Escenario21 {
 
     ListNode list2 = a;
 
-    ListNode merge = null;
+    
 
-    while (list1 != null && list2 != null) {
-      System.out.println(list1.val);
-      System.out.println(list2.val);
-      merge = list1.next;
-      list2 = list2.next;
-    }
+   
   }
 }
