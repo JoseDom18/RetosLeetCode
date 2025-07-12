@@ -26,46 +26,24 @@ public class Solution21 {
 
       while (list1 != null || list2 != null) {
 
-        if (list1.val < list2.val) {
-          tempMerge.next = new ListNode(list1.val);
-          list1 = list1.next;
-        } else {
-          tempMerge.next = new ListNode(list2.val);
-          list2 = list2.next;
-        }
-
-        tempMerge = tempMerge.next;
-
         if (list1 == null) {
-          while (list2 != null) {
+          tempMerge.next = list2;
+          return merge;
+        } else if (list2 == null) {
+          tempMerge.next = list1;
+          return merge;
+        } else {
+          if (list1.val < list2.val) {
+            tempMerge.next = new ListNode(list1.val);
+            list1 = list1.next;
+          } else {
             tempMerge.next = new ListNode(list2.val);
             list2 = list2.next;
           }
-        } else if (list2 == null) {
-          while (list1 != null) {
-            tempMerge.next = new ListNode(list1.val);
-            list1 = list1.next;
-          }
+  
+          tempMerge = tempMerge.next;
         }
-
-        // comprobación para evitar comparar int con null
-        // if (list1 != null && list2 != null) {
-        // } else if (list1 == null) {
-        // merge.next = new ListNode(list2.val);
-        // list2 = list2.next;
-        // if (list2 == null) {
-        // break;
-        // }
-        // } else {
-        // merge.next = new ListNode(list1.val);
-        // list1 = list1.next;
-        // if (list1 == null) {
-        // break;
-        // }
-        // }
-
       }
-
       return merge;
     }
 
