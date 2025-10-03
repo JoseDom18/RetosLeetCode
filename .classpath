@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="1394.FindLuckyIntegerInAnArray"/>
+	<classpathentry kind="src" path="14.LongestCommonPrefix"/>
+	<classpathentry kind="src" path="20.ValidParentheses"/>
+	<classpathentry kind="src" path="21.MergeTwoSortedLists"/>
+	<classpathentry kind="src" path="26.RemoveDuplicatesFromSortedArray"/>
+	<classpathentry kind="src" path="27.RemoveElement"/>
+	<classpathentry kind="src" path="28.FindTheIndexOfTheFirstOccurrenceInAString"/>
+	<classpathentry kind="src" path="58.LengthOfLastWord"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
