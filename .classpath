@@ -8,6 +8,12 @@
 	<classpathentry kind="src" path="26.RemoveDuplicatesFromSortedArray"/>
 	<classpathentry kind="src" path="27.RemoveElement"/>
 	<classpathentry kind="src" path="28.FindTheIndexOfTheFirstOccurrenceInAString"/>
+<<<<<<< HEAD
 	<classpathentry kind="src" path="58.LengthOfLastWord"/>
+=======
+	<classpathentry kind="src" path="35.SearchInsertPosition"/>
+	<classpathentry kind="src" path="58"/>
+	<classpathentry kind="src" path="66.PlusOne"/>
+>>>>>>> branch 'main' of https://github.com/JoseDom18/RetosLeetCode.git
 	<classpathentry kind="output" path="bin"/>
 </classpath>
